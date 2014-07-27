@@ -1,0 +1,48 @@
+{
+    "name":"Anime ost",
+    "coverImage":"http://localhost:8000/playlists/covers/anime-ost.jpg",
+    "tracks":[
+        {
+            "name":"Sabertooth",
+            "source":"https://www.youtube.com/watch?v=CgbRcx5y67M",
+            "mediaType":"youtube",
+            "thumbnail" : "http://img.youtube.com/vi/CgbRcx5y67M/mqdefault.jpg"
+        },
+        {
+            "name":"Magic champion",
+            "source":"https://www.youtube.com/watch?v=9xksTip0Fms",
+            "mediaType":"youtube",
+            "thumbnail" : "http://img.youtube.com/vi/9xksTip0Fms/mqdefault.jpg"
+        },
+        {
+            "name":"Saint seiya",
+            "source":"https://www.youtube.com/watch?v=CsCcPHRPnBo",
+            "mediaType":"youtube",
+            "thumbnail" : "http://img.youtube.com/vi/CsCcPHRPnBo/mqdefault.jpg"
+        },
+        {
+            "name":"White and black dragon",
+            "source":"https://www.youtube.com/watch?v=gGESVOIqKBA",
+            "mediaType":"youtube",
+            "thumbnail" : "http://img.youtube.com/vi/gGESVOIqKBA/mqdefault.jpg"
+        },
+        {
+            "name":"Prelude of destruction",
+            "source":"https://www.youtube.com/watch?v=fDDMXf36xsk",
+            "mediaType":"youtube",
+            "thumbnail" : "http://img.youtube.com/vi/fDDMXf36xsk/mqdefault.jpg"
+        },
+        {
+            "name":"Hitman reborn holy war",
+            "source":"https://www.youtube.com/watch?v=F7Nc1jDiNcw",
+            "mediaType":"youtube",
+            "thumbnail" : "http://img.youtube.com/vi/F7Nc1jDiNcw/mqdefault.jpg"
+        },
+        {
+            "name":"Hitman reborn hibari theme",
+            "source":"https://www.youtube.com/watch?v=hABWxkr_4yE",
+            "mediaType":"youtube",
+            "thumbnail" : "http://img.youtube.com/vi/hABWxkr_4yE/mqdefault.jpg"
+        }
+    ]
+}
