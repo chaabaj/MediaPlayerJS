@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-2 column">
+            <div class="todo-search">
+                <input ng-model="trackFilter.name" class="todo-search-field" value="" placeholder="Search" type="search">
+            </div>
+        </div>
+        <div class="col-md-10 column">
+        </div>
+    </div>
+</div>
+
+
+<div class="scrollbar">
+    <div style="" class="handle">
+        <div class="mousearea"></div>
+    </div>
+</div>
+
+<div style="overflow: hidden;" class="frame effects">
+    <ul class="clearfix">
+        <li ng-repeat="track in playlist.tracks | filter:trackFilter" ng-click="onSelectTrack(track, $index)" repeat-done="reloadSly()">
+            <img ng-src="{{track.thumbnail}}" width="192" height="150" />
+            <h4>{{track.name}}</h4>
+        </li>
+    </ul>
+</div>
+

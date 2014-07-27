@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <div ng-include src="'views/menu.tpl.html'"></div>
+        </div>
+    </div>
+
+    <div class="row clearfix" id="media-player">
+        <div class="col-md-12 column">
+            <m-player track="currentTrack" on-track-finished="onTrackFinished"></m-player>
+        </div>
+    </div>
+    <div class="row clearfix">
+        <m-track-notification track="currentTrack" duration="'10000'"></m-track-notification>
+    </div>
+    <div class="row clearfix">
+        <m-media-list></m-media-list>
+    </div>
+</div>

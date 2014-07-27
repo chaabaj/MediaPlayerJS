@@ -1,0 +1,10 @@
+
+<ul class="list-group">
+
+    <li class="list-group-item" ng-repeat="playlist in playlists"
+                                ng-click="onSelectPlaylist(playlist)" ng-class="{active : playlist === selectedPlaylist}">
+
+        <m-cover playlist-name="playlist.name" cover-image="playlist.coverImage"></m-cover>
+    </li>
+</ul>
+

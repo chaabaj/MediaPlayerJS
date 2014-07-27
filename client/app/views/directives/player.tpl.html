@@ -1,0 +1,19 @@
+<div ng-switch="track.mediaType">
+
+    <div ng-switch-when="youtube" m-youtube-player>
+        <youtube-video id="useless" video-url="track.source"></youtube-video>
+    </div>
+
+    <div ng-switch-when="audio">
+        <audio controls="controls" m-html5-player>
+            <source ng-src="{{track.source}}">
+        </audio>
+    </div>
+
+    <div ng-switch-when="video">
+        <video controls="controls" m-html5-player>
+            <source ng-src="{{track.source}}">
+        </video>
+    </div>
+
+</div>
